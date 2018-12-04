@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+<meta name="Keywords" content="CIW, Web Foundations Associate, Example">
+<meta name="Description" content="For the CIW Web Foundations Associate courses">
+<meta charset="utf-8"><title>Basic Form</title>
+<link rel="stylesheet" href="myStyle.css">
+ <style>
+	 h1
+{
+text-align:center;
+background-color:#0C3E42;
+}
+</style>
+</head>
+
+
+<body>
+<div id="header">
+<h1>Tsion J Guest Book</h1></div>
+<br>
+<div>
+<h2 style="font-family: Times New Roman, sans-serif;">Basic Form</h2> </div>
+<br>
+
+ 
+    <ul>  
+	
+        <li><a href="reflections.html">Reflection</a></li>
+        <li><a href="guestbook.html">Guest-Room</a></li>
+        <li><a href="interests.html">Interst</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="home.html">Home</a></li>
+        </ul>
+
+<div>
+<form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+Enter Your Name:            <input name="Name" size="40" type="text"> <br>
+<br>
+Enter Your E-mail:          <input name="Email" size="40" type="text"> <br>
+<br>
+What country do you live in? <input name="text" size="40" type="text"> <br>
+<br>
+What is your age group?
+<br>
+<input name="AddToList" value="under 18" checked="checked" type="radio">under 18 <br>
+<input name="AddToList" value="under 18" checked="checked" type="radio">18-30 <br>
+<input name="AddToList" value="31-45" checked="checked" type="radio">31-45 <br>
+<input name="AddToList" value="46-64" checked="checked" type="radio">46-64 <br>
+<input name="AddToList" value="65 and over" checked="checked" type="radio">65 and over <br>
+<br>
+Should we add you to our mailing list?<input type="checkbox">
+<br>
+<br>
+What web technologies are you intersted in? (check all that apply):
+<br>
+<input name="Skills" type="checkbox"> HTML <br> 
+<input name="Skills" type="checkbox"> CSS <br>
+<input name="Skills" type="checkbox"> JAVAScript <br>
+<input name="Skills" type="checkbox"> AJAX <br>
+<input name="Skills" type="checkbox"> SQL <br>
+<input name="Skills" type="checkbox"> PHP <br>
+<br>
+<br>
+<br>
+How did you find my website? <br>
+<select name="EmailFreq"><option>I'm a friend</option><option>A friend directed me to your site</option><option>School Web Site </option><option>A search engine directed me to your site</option><option>I came across your site by accident </option><option>others </option></select>
+<br>
+<br>
+Comments:<br>
+<textarea name="comments" cols="50" rows="5">
+</textarea> <br>
+<br>
+<input type="submit"> <input type="reset">
+</form>
+</div>
+</body>
+</html>
